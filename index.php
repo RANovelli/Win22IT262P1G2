@@ -49,7 +49,7 @@
             }
             
             if ($_POST['Val'] && is_numeric($_POST['Val']) == FALSE) {
-                echo '<p><span class="error">Please use numeric values!</span></p>';
+                echo '<p><span class="error">Please use numeric value!</span></p>';
                 $all_set = false;
             }
 
